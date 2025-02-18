@@ -404,8 +404,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
 
 ### 补充ThreadLocal相关知识22
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/3268bc89d5904ada9f6b35b7c18217e5.png)
-
 #### a.ThreadLocal的数据结构
 
 - Thread类有一个类型为ThreadLocal.ThreadLocalMap的实例变量threadLocals，也就是说每个线程有一个自己的ThreadLocalMap。
