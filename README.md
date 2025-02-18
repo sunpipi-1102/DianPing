@@ -100,9 +100,7 @@
 
 ### 1.3 Redis 实现共享 session
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/79783e6d465249b882ca325c68c2c288.png)
-
-
+![image](https://github.com/user-attachments/assets/544138e4-bfd9-4c84-8e27-0222338f6782)
 
 ```java
   
@@ -139,9 +137,8 @@
 >
 >
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9f06eba6bdab4c8eb132dc680fc9263a.png#pic_center)
+![image](https://github.com/user-attachments/assets/e57fe9f4-0c84-4678-8a74-ca32bbe25aa0)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5d6320f988a94c9f9dff10756dc83bdc.png#pic_center)
 
 ```java
 public class RefreshTokenInterceptor implements HandlerInterceptor {
