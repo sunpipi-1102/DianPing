@@ -62,7 +62,8 @@
 
 ### 1.1、基于Session实现登录流程
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9e6337b2deed414f8619eacb01e1e9c0.png)
+![image](https://github.com/user-attachments/assets/9b339fba-3136-477e-b5c9-ff008db4e0b9)
+
 
 ```java
     @Override
