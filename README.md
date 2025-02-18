@@ -93,7 +93,8 @@
 
 > 单体应用时用户的会话信息保存在session中，session存在于服务器端的内存中，由于前前后后用户只针对一个web服务器，所以没啥问题。但是一到了web服务器集群的环境下（我们一般都是用Nginx做负载均衡，若是使用了轮询等这种请求分配策略），就会导致用户小a在A服务器登录了，session存在于A服务器中，但是第二次请求被分配到了B服务器，由于B服务器中没有用户小a的session会话，导致用户小a还要再登陆一次.
 >
-> ![在这里插入图片描述](https://img-blog.csdnimg.cn/abf1246ffdca4c90a1b00f36905892bf.png#pic_center)
+![image](https://github.com/user-attachments/assets/cc22450e-ef38-4ad5-b1bb-b3f6414109b4)
+
 
 > **session 的替代方案** 应该满足：数据共享；内存存储；key、value 结构（**Redis** 恰好就满足这些情况）
 
