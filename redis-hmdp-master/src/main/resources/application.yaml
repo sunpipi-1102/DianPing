@@ -10,9 +10,9 @@ spring:
     password: 123456
     url: jdbc:mysql://localhost:3306/hmdp?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
   redis:
-    host: 192.168.8.130
+    host: 192.168.9.122
     port: 6379
-    password: yangroot
+    password: root123
     lettuce:
       pool:
         max-active: 10
