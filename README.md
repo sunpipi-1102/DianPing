@@ -1,9 +1,5 @@
 ## 1.项目介绍
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/abf1246ffdca4c90a1b00f36905892bf.png#pic_center)
-
-
-
 - Spring 相关：
 
 > Spring Boot 2.x
