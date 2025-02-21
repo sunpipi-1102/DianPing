@@ -2,8 +2,8 @@
 
 - Spring 相关：
 
-> Spring Boot 2.x
-> Spring MVC
+-- Spring Boot 2.x
+-- Spring MVC
 - 数据存储层：
 
 > MySQL：存储数据
