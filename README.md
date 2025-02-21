@@ -4,7 +4,7 @@
 
 > Spring Boot 2.x
 > Spring MVC
-> 数据存储层：
+- 数据存储层：
 
 > MySQL：存储数据
 > MyBatis Plus：数据访问框架
