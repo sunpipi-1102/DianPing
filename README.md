@@ -8,13 +8,13 @@
 
 > MySQL：存储数据
 > MyBatis Plus：数据访问框架
-> Redis 相关：
+- Redis 相关：
 
 > spring-data-redis：操作 Redis
 > Lettuce：操作 Redis 的高级客户端
 > Apache Commons Pool：用于实现 Redis 连接池
 > Redisson：基于 Redis 的分布式数据网格
-> 工具库：
+- 工具库：
 
 > HuTool：工具库合集
 > Lombok：注解式代码生成工具
