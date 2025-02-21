@@ -53,7 +53,7 @@ public class ShopTypeServiceImpl extends ServiceImpl
         if(typeList.isEmpty()){
             return Result.fail("不存在分类");
         }
-        //6.存在写入rdis
+        //6.存在写入redis
         for (ShopType s:typeList) {
             String shopjson = JSONUtil.toJsonStr(s);
             strshopTypeList.add(shopjson);
